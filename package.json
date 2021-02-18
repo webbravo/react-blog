@@ -1,0 +1,28 @@
+{
+  "name": "react-blog",
+  "version": "1.0.0",
+  "description": "this is a blog system built in react and that connects to an instance of strap.io hosted on linode.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbravo/react-blog.git"
+  },
+  "keywords": [
+    "react",
+    "blog",
+    "react-blog",
+    "strapi",
+    "nodejs-blog",
+    "nodejs",
+    "headless-cms"
+  ],
+  "author": "webbravo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webbravo/react-blog/issues"
+  },
+  "homepage": "https://github.com/webbravo/react-blog#readme"
+}
