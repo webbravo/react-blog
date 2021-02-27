@@ -1,28 +1,38 @@
 {
   "name": "react-blog",
-  "version": "1.0.0",
-  "description": "this is a blog system built in react and that connects to an instance of strap.io hosted on linode.com",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.0"
+  },
   "scripts": {
-    "test": "run test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/webbravo/react-blog.git"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "keywords": [
-    "react",
-    "blog",
-    "react-blog",
-    "strapi",
-    "nodejs-blog",
-    "nodejs",
-    "headless-cms"
-  ],
-  "author": "webbravo",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/webbravo/react-blog/issues"
-  },
-  "homepage": "https://github.com/webbravo/react-blog#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
